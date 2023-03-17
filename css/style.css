@@ -1,0 +1,65 @@
+/* #FFFAF0
+# 984B17
+#F4DAA5
+# EAC272
+# F2E0BB */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    /* font-family: 'Dancing Script', cursive;
+       font-family: 'Open Sans', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+    overflow: scroll;
+    position: relative;
+    scroll-behavior: smooth; 
+}
+
+
+/* Navigation */
+.navbar {
+    
+    
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        padding-right: 15px;
+        align-items: center;
+        background-color: #FFFAF0;
+}
+
+
+
+
+.logo {
+   
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    align-items: center;
+
+
+    
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    margin-left:20%;
+    
+
+}
+
+
+
+
+footer{
+    background:#FFFAF0;
+}
